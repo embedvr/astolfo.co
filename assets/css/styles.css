@@ -1,0 +1,268 @@
+:root {
+  --bg: rgb(20, 20, 20);
+}
+
+body {
+  background-color: var(--bg);
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  margin: 5% 0 5% 0;
+  background: url("../../assets/img/bg.png") repeat-y;
+  background-position-x: 50%;
+  height: 350px;
+  max-width: 800px;
+  width: 100%;
+  animation: scrollForever 5s linear infinite;
+  border-radius: 15px;
+  transition: none;
+}
+
+@media (min-width: 768px) {
+  .header {
+    margin: 5%;
+    background: url("../../assets/img/bg.png") repeat-y;
+    background-position-x: 50%;
+    height: 250px;
+    max-width: 800px;
+    width: 85%;
+    animation: scrollForever 5s linear infinite;
+    border-radius: 15px;
+    transition: none;
+  }
+}
+
+@keyframes scrollForever {
+  from {
+    background-position-y: 0%;
+  }
+  to {
+    background-position-y: -1337px;
+  }
+}
+
+.header_main {
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.container {
+}
+
+.header-items {
+  width: 50%;
+}
+
+.avatar {
+  height: 65%;
+}
+
+@media (min-width: 768px) {
+  .avatar {
+    height: 100%;
+  }
+}
+
+header {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .header-text {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 82px;
+    color: rgb(255,255,255);
+  }
+}
+
+.header-text {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 50px;
+  color: rgb(255,255,255);
+}
+
+.header-text:hover {
+  font-size: 60px;
+}
+
+@media (min-width: 768px) {
+  .header-text:hover {
+    font-size: 90px;
+  }
+}
+
+\ {
+  transition: all 0.25s ease;
+}
+
+.row {
+  width: 100%;
+}
+
+.article-bottom {
+  padding: 2%;
+  width: 100%;
+  max-width: 800px;
+  border-radius: 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+@media (min-width: 768px) {
+  .article-bottom {
+    padding: 2%;
+    width: 85%;
+    max-width: 800px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+}
+
+.article-sub {
+  padding: 2%;
+  width: 100%;
+  max-width: 800px;
+}
+
+@media (min-width: 768px) {
+  .article-sub {
+    padding: 2%;
+    width: 85%;
+    max-width: 800px;
+  }
+}
+
+.article-top {
+  padding: 2%;
+  width: 100%;
+  max-width: 800px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+@media (min-width: 768px) {
+  .article-top {
+    padding: 2%;
+    width: 85%;
+    max-width: 800px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+}
+
+.wid-sub {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.wid-main {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+@media (min-width: 768px) {
+  .wid-main {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 23px;
+    color: #fff;
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .wid-main {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 0px;
+  }
+}
+
+article {
+  width: 100%;
+}
+
+.social-icons-b {
+  font-size: 30px;
+  height: 30px;
+  color: #fff;
+  margin: 5px;
+}
+
+.social-icons {
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  margin: 5px;
+}
+
+.social-icons:hover {
+  font-size: 35px;
+  width: 35px;
+  height: 35px;
+  margin: 2.5px;
+}
+
+.social-icons-b:hover {
+  font-size: 35px;
+  height: 35px;
+}
+
+.article-socials {
+  max-height: 30px;
+}
+
+a {
+  color: #fff;
+  text-decoration: underline 0.15em rgba(0,0,0,0);
+}
+
+a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration-color: rgba(255,255,255,1);
+}
+
+a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:link {
+  color: #fff;
+  text-decoration: underline 0.15em rgba(0,0,0,0);
+}
+
+.btm {
+  margin-bottom: 5%;
+}
+
+.project-sub {
+  margin-left: 5px;
+  margin-bottom: 0;
+  color: #fff;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.project-name {
+  margin: 0;
+  color: #fff;
+  font-family: 'Exo 2', sans-serif;
+}
+
