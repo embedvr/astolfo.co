@@ -62,7 +62,7 @@ body {
 .avatar {
   max-height: 65%;
   height: auto;
-  place-self: end;
+  place-self: center;
 }
 
 @media (min-width: 768px) {
