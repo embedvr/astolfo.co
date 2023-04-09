@@ -1,0 +1,287 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "tickets": {
+      "type": "object",
+      "properties": {
+        "category": {
+          "type": "string"
+        },
+        "introductions": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "emoji": {
+                  "type": "string"
+                },
+                "mentionSupport": {
+                  "type": "boolean"
+                },
+                "supportRoles": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "introduction": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "message"
+                  ]
+                }
+              },
+              "required": [
+                "value",
+                "label",
+                "description",
+                "emoji",
+                "mentionSupport",
+                "supportRoles",
+                "introduction"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "emoji": {
+                  "type": "string"
+                },
+                "mentionSupport": {
+                  "type": "boolean"
+                },
+                "supportRoles": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "introduction": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "message"
+                  ]
+                }
+              },
+              "required": [
+                "value",
+                "label",
+                "description",
+                "emoji",
+                "mentionSupport",
+                "supportRoles",
+                "introduction"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "emoji": {
+                  "type": "string"
+                },
+                "mentionSupport": {
+                  "type": "boolean"
+                },
+                "supportRoles": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "introduction": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "message"
+                  ]
+                }
+              },
+              "required": [
+                "value",
+                "label",
+                "description",
+                "emoji",
+                "mentionSupport",
+                "supportRoles",
+                "introduction"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "emoji": {
+                  "type": "string"
+                },
+                "mentionSupport": {
+                  "type": "boolean"
+                },
+                "supportRoles": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "introduction": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "message"
+                  ]
+                }
+              },
+              "required": [
+                "value",
+                "label",
+                "description",
+                "emoji",
+                "mentionSupport",
+                "supportRoles",
+                "introduction"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "emoji": {
+                  "type": "string"
+                },
+                "mentionSupport": {
+                  "type": "boolean"
+                },
+                "supportRoles": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "introduction": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "message"
+                  ]
+                }
+              },
+              "required": [
+                "value",
+                "label",
+                "description",
+                "emoji",
+                "mentionSupport",
+                "supportRoles",
+                "introduction"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "category",
+        "introductions"
+      ]
+    }
+  },
+  "required": [
+    "tickets"
+  ]
+}
+
