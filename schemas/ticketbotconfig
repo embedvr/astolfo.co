@@ -5,10 +5,10 @@
     "tickets": {
       "type": "object",
       "properties": {
-        "category": {
+        "categoryId": {
           "type": "string"
         },
-        "introductions": {
+        "categories": {
           "type": "array",
           "items": [
             {
@@ -275,8 +275,8 @@
         }
       },
       "required": [
-        "category",
-        "introductions"
+        "categoryId",
+        "categories"
       ]
     }
   },
